@@ -13,7 +13,7 @@ parser.add_argument('--host',
                     type=str,
                     default="localhost")
 
-# Если параметр передан то Ture, иначе False
+# Если параметр передан то True, иначе False
 parser.add_argument('--path',
                     default='/',
                     type=str,
